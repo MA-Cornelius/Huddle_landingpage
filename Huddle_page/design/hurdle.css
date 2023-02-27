@@ -1,0 +1,182 @@
+body{
+    background:url("bg-desktop.svg"),#712bd9;
+    color: white;
+    width:600px;
+    max-width: 100%;
+    min-width: 350px;
+    font-family: 'EB Garamond', serif;
+    font-size: x-large;
+}
+
+/* font-family: 'Gloock', serif;
+=====================================
+font-family: 'EB Garamond', serif;
+font-family: 'Gloock', serif; */
+
+a{
+    text-decoration: none;
+    text-decoration-line: none;
+    -moz-text-decoration-line: none;
+    text-decoration-style: none;
+    -moz-text-decoration-style: none;
+}
+h1{
+    font-family: 'EB Garamond', serif;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-gap: 100px;
+
+}
+.content{
+    display: inline-block;
+    /* margin: auto; */
+    transform: 2,1;
+    -webkit-transform: 2,1;
+    -moz-transform: 2,1;
+    -ms-transform: 2,1;
+    -o-transform: 2,1;
+    margin-top: 150px;
+   
+}
+.sidepage{
+    text-align: left;
+}
+.huddle{
+    margin: 50px;
+    margin-left: 70px; 
+    cursor: pointer;
+}
+.illustration{
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.register{ 
+    border: 0px solid white; background-color: white;
+    color: #712bd9;
+    border-width: 1px; 
+    border-radius: 30px;
+     -webkit-border-radius: 30px; -moz-border-radius: 30px;
+      -ms-border-radius: 30px; 
+      -o-border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.register:hover{
+    color: white;
+    background-color:#fc86f3;
+    border-color: #fc86f3;
+    text-decoration: none;
+}
+.register a:hover{
+    color: white;
+    background-color:#fc86f3;
+    border-color: #fc86f3;
+    text-decoration: none;
+}
+.attribution{
+    text-align:center;
+    color: black;
+    text-decoration: none;
+    border:0 solid #712bd9 ;
+    /* border-style: inset; */
+    /* border-width: 5px; */
+    border-radius: 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+.attribution .a:hover{
+    color: blanchedalmond;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer{
+    animation:mySlide;
+    -webkit-animation:mySlide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    margin: 50px 50px 50px 50px;
+    align-items: center;
+
+    /* text-align:center;
+    color: palegreen;
+    text-decoration: none;
+    border:0 solid #712bd9 ;
+    border-style: inset;
+    border-width: 7px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px; */
+
+}
+footer p{
+    animation: myColors;
+    -webkit-animation: myColors;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+}
+.attribution .a:active{
+    color: bisque;
+    text-decoration: none;
+}
+.socials{
+    text-align:right;
+    align-items: center;
+    display: grid;
+    grid-template-columns:4fr 4fr 4fr;
+    grid-gap: 1px;
+    display: flex;
+    text-align: right;
+    margin-left: 1100px;
+}
+.img{
+    text-align: right;
+}
+.img:hover{
+    color: #fc86f3;
+    background-color: #fc86f3;
+}
+#gif{
+    /*border: 1px solid white;
+    */border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#gif:hover{
+    color: #fc86f3;
+    background-color: #fc86f3;
+}
+@keyframes mySlide{
+    from{margin-right:-50%;}
+    to{ margin: right 30%;}
+}
+@keyframes myColors{
+    /* 0%{background-color:red;} */
+
+    20%{background-color:teal;}
+
+    40%{background-color:thistle;}
+
+    60%{background-color:turquoise;}
+
+    80%{background-color:skyblue;}
+
+    100%{background-color:lightcoral;}
+}
